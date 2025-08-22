@@ -1,0 +1,23 @@
+*{
+    outline: 1px dashed #f88;
+}
+
+.carousel{
+    width: 600px;
+    height: auto;
+}
+.sign-in-icon{
+    width: 24px;
+    height: 24px;
+}
+input[required] + label::after,
+label.required::after {
+  content: "*";
+  color: red;
+  margin-left: 4px;
+}
+
+.container{
+    margin-top: 60px;
+    margin-bottom: 90px;
+}

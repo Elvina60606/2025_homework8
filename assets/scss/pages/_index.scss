@@ -1,3 +1,91 @@
-.index-title {
+.banner{
+  padding-top: 112px;
+  padding-bottom: 162px;
+}
+
+.recommend-card{
+  width: 277px;
+  height: 400px;
+}
+
+.map-card-num{
+  top: -2%;
+  color: #DFD2CD;
   font-size: 100px;
+}
+.heart-icon{
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.bg-text-svg-1{
+  top: calc(50% + 59px); 
+  left: calc(50% - 880px);
+}
+.bg-text-svg-2{
+  top: -40%;
+  left: 25%;
+}
+.bg-3-svg{
+  width: 52px;
+  height: 52px;
+  top: -25%;
+  left: -3%;
+}
+.bg-title{
+  height: 38px;
+  overflow-x: auto;
+}
+.bg-up{
+  left: -12%;
+  top: -30%;
+}
+.bg-line{
+  left: -5%;
+  top: 50%;
+}
+.bg-down{
+  right: 2%;
+  bottom: -40%;
+}
+
+
+@media (min-width: 992px) {
+  .banner-lg{
+    padding-top: 300px;
+    padding-bottom: 474px;
+  }
+  .offset-right{
+    transform: translateX(80px);
+  }
+  .recommend-card{
+    width: 25%;
+    height: 600px;
+    transition: width 0.5s;
+    &:hover{
+      max-width: 416px;
+      width: 100%;
+      .d-lg-hover-block{
+        display: block !important;
+      }
+    }
+  }
+  .map-card-num{
+    top: -15%;
+    font-size: 200px;
+  }
+  .bg-text-svg-2{
+    top: -20%;
+    left: 60%;
+  }
+  .bg-3-svg{
+    width: 120px;
+    height: 120px;
+    top: -25%;
+    left: -4%;
+  }
+  .bg-title{
+    height: 156px;
+    overflow-x: hidden;
+  }
 }

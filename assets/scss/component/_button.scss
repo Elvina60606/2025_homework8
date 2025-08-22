@@ -1,0 +1,27 @@
+
+.btn-darken{
+    border-radius: 12px;
+    font-weight: $font-weight-bold;
+    color: $white;
+    background: $primary-100;
+    &:hover{
+        color: $white;
+        background: $primary-120;
+    }
+}
+
+.btn-lighten{
+    color: $primary-100;
+    background-color: $white;
+    font-weight: $font-weight-bold;
+    &:hover{
+        color: $white;
+        background-color: $primary-100;
+    }
+}
+
+.btn-circle-icon{
+    width: 32px;    
+    height: 32px; 
+    line-height: 1.3;
+}
